@@ -30,7 +30,7 @@ void loop() {
     if (distance<5)
     {
       digitalWrite(pinLED1,HIGH);
-      digitalWrite(pinLED2,HIGH);
+      digitalWrite(pinLED2,LOW);
       digitalWrite(pinLED3,HIGH);
       digitalWrite(pinLED4,HIGH);
     }
